@@ -1,0 +1,311 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    width: 800px;
+    height: 800px;
+    background-color: #ddd;
+    margin: 50px auto;
+    position: relative;
+}
+.edit{
+    text-transform: capitalize;
+    color: dodgerblue;
+    position: absolute;
+    left: 95%;
+    top: 5%;
+    font-weight: bold;
+}
+.search{
+     width: 80%;
+    height: 5%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    padding-left: 50px;
+    border: 1px solid #a1a1a1;
+    background-color: #a1a1a1;
+    border-radius: 25px;
+    font-size: 25px;
+}
+.sea{
+    position: absolute;
+    left: 13%;
+    top: 11.5%;
+    font-size: 20px;
+}
+/*start of the first two hite divs*/
+.main-one{
+    width: 80%;
+    height: 20%;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid #fff; */
+}
+.main-one>div{
+    width: calc(94% / 2);
+    height: 100%;
+    background-color: #fff;
+    border-radius: 25px;
+    position: relative;
+}
+.main-one .today .one{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: dodgerblue;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    font-size: 25px;
+}   
+.main-one .today .two{
+    position: absolute;
+    left: 90%;
+    top: 10%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.main-one .today .three{
+    color: #a1a1a1;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    left: 10%;
+    top: 65%;
+    text-transform: capitalize;
+}
+.main-one .schedule .eins{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: orange;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    font-size: 25px;
+}   
+.main-one .schedule .two{
+    position: absolute;
+    left: 90%;
+    top: 10%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.main-one .schedule .three{
+    color: #a1a1a1;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    left: 10%;
+    top: 65%;
+    text-transform: capitalize;
+}
+/*end of the first 2 white divs*/
+/*start of the first 2 white divs*/
+.main-two{
+    width: 80%;
+    height: 20%;
+    position: absolute;
+    left: 10%;
+    top: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid #fff; */
+}
+.main-two>div{
+    width: calc(94% / 2);
+    height: 100%;
+    background-color: #fff;
+    border-radius: 25px;
+    position: relative;
+}
+.main-two .all .one{
+        width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #a1a1a1;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    font-size: 25px;
+}
+.main-two .all .two{
+ position: absolute;
+    left: 90%;
+    top: 10%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.main-two .all .three{
+    color: #a1a1a1;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    left: 10%;
+    top: 65%;
+    text-transform: capitalize;
+}
+.main-two .flagged .one{
+        width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: orangered;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    font-size: 25px;
+}
+.main-two .flagged .two{
+ position: absolute;
+    left: 90%;
+    top: 10%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.main-two .flagged .three{
+    color: #a1a1a1;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    left: 10%;
+    top: 65%;
+    text-transform: capitalize;
+}
+/*end of the second white divs*/
+.main-three{
+    width: 80%;
+    height: 25%;
+    /* border: 1px solid #fff; */
+    position: absolute;
+    left: 10%;
+    top: 70%;
+}
+h2{
+    text-transform: capitalize;
+}
+.main-three .info{
+    width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        /* background-color: #fff001; */
+        position: absolute;
+        left: 0;
+        top: 30%;
+}
+.info>div{
+    width: 100%;
+    height: calc(99% / 2);
+    background-color: #fff;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.main-three .do .one{
+            width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                background-color: rgb(0, 172, 51);
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                left: 5%;
+                top: 10%;
+                font-size: 25px;
+}
+.main-three .do .two{
+position: absolute;
+    left: 14%;
+    top: 14%;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.main-three .do .three{
+    position: absolute;
+        left: 94%;
+        top: 14%;
+        font-size: 25px;
+        text-transform: capitalize;
+        color: #ddd;
+}
+.main-three .family .one{
+            width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                background-color: yellow;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                left: 5%;
+                top: 60%;
+                font-size: 25px;
+}
+.main-three .family .two{
+position: absolute;
+    left: 14%;
+    top: 64%;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.main-three .family .three{
+    position: absolute;
+        left: 94%;
+        top: 64%;
+        font-size: 25px;
+        text-transform: capitalize;
+        color: #ddd;
+}
